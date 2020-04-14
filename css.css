@@ -1,0 +1,95 @@
+* {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+div {
+	padding: 10px;
+	font-size: 14px;
+}
+
+.wrapper {
+	display: flex;
+	width: 100%;
+}
+
+.wrapper h2 {
+	margin-left: 20px;
+}
+
+.canv_container {
+	margin-right: 20px;
+	padding: 0;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+canvas {
+	width: 600px;
+	height: 400px;
+	border: 2px solid #81d8d0;
+}
+
+input {
+	padding: 10px;
+	margin-right: 20px;
+	height: 50px;
+}
+
+label {
+
+}
+
+#dim {
+	width: 400px;
+	padding: 0px;
+}
+
+#clrInp {
+	width: 200px;
+	top: 2px;
+}
+
+#buttons {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+canvas#c2 {
+
+}
+
+.class1 {
+	background-color: yellow;
+}
+
+.class2 {
+	background-color: lightblue;
+}
+
+#clrBtn {
+	margin-top: 10px;
+}
+
+section {
+	display: flex;
+	align-items: center;
+}
+
+#errorSpace {
+	marin: 0;
+	padding: 0;
+	font-size: 14px;
+	color: red;
+}
+
+#infoSpace {
+	marin: 0;
+	padding: 0;
+	font-size: 14px;
+}
